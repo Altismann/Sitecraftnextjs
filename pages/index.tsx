@@ -1,26 +1,25 @@
 import type { NextPage } from "next";
-import Nav from "../components/nav";
 
 const Body: NextPage = () => {
   return (
     <div className="w-full bg-black relative flex flex-col items-center justify-center pt-0 px-0 pb-[30.5px] box-border leading-[normal] tracking-[normal] text-center text-[34px] text-white font-montserrat">
-      <Nav />
-      <div className="w-full bg-darkkhaki overflow-hidden flex flex-col items-center justify-center pt-[200px] pb-[404px] pl-[559px] pr-[558px] box-border gap-0.5 max-w-full">
+   
+      <div className="w-full bg-red-400 flex flex-col items-center justify-center pt-[300px] pb-[404px] pl-[559px] pr-[558px] box-border gap-0.5 max-w-full">
         <div className="w-full flex flex-row items-center justify-center py-0 pl-[99px] pr-[98px] box-border max-w-full ">
           <div className="w-full relative leading-[20px] flex items-center justify-center ">
             Portfolio
           </div>
         </div>
-        <h1 className="w-full relative mq450:text-[18px] mq750:text-[36px] text-[130px] font-black font-[inherit] flex items-center justify-center">
+        <h1 className="w-full relative mq450:text-[18px] mq750:text-[36px] text-[130px] font-black font-[inherit] flex items-center justify-centertext-17xl leading-[1px]">
           Anders
         </h1>
       </div>
       <main className="w-full bg-black flex flex-col items-center justify-center pt-[0px] box-border relative gap-[227px] max-w-full text-left text-27xl text-white font-montserrat lg:pt-[215px] lg:pb-[129px] lg:box-border ">
       <section className="w-full leading-[60px] uppercase font-black font-montserrat text-white text-left flex items-center mo:text-5xl">
           Hej! Jag heter Anders, jag är en hobby produktdesigner och
-          webbutvecklare plaserad i Stockholm. Jag skapar gränssnitt för
-          hobbyister, småföretag och skapare. Alla sidor här är skapade från
-          grunden utan färdiga teman.
+          webbutvecklare plaserad i Stockholm. Alla sidor här är skapade från
+          grunden utan färdiga teman. Jag använde Figma, Locofy och Nextjs för 
+          att göra den här sidan.
         </section>
         <div className="flex flex-col items-end justify-center gap-[187px] max-w-full text-45xl ">
           <div className="flex flex-col items-center justify-center">
@@ -56,20 +55,20 @@ const Body: NextPage = () => {
           </div>
         </div>
 
-        <div className="w-[440px] flex flex-row items-start justify-center pt-0 px-11 pb-[55px] box-border max-w-full text-center ">
+        <div className="w-[440px] flex flex-row items-start justify-center pt-0 box-border max-w-full text-center ">
           <div className="h-[336px] relative leading-[48px] font-black flex items-center ">
-            <span className="[line-break:anywhere]">
-              <p className="m-0">React.js</p>
+            <span className="[line-break:none]">
+              <p className="m-0">Vscode</p>
               <p className="m-0 tracking-[25px]">NextJs</p>
               <p className="m-0">Github</p>
               <p className="m-0 tracking-[25px]">Figma</p>
               <p className="m-0">Shopify</p>
               <p className="m-0 tracking-[25px]">Webflow</p>
-              <p className="m-0">TeleportHQ</p>
+              <p className="m-0">Locofy</p>
             </span>
           </div>
         </div>
-        <div className="w-full flex flex-col items-center justify-center py-0 px-[70px] box-border max-w-full text-center pb-[200px]">
+        <div className="w-full flex flex-col items-center justify-center py-0 px-[0px] box-border max-w-full text-center pb-[200px]">
           <div className="flex-1 flex flex-col items-center justify-center gap-3.5 max-w-full">
 
             <div className="w-full text-17xl leading-[36px] font-black ">
@@ -87,7 +86,6 @@ const Body: NextPage = () => {
             </div>
           </div>
         </div>
-
       </main>
     </div>
   );
