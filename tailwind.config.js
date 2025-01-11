@@ -32,18 +32,14 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
-      lg: {
-        max: "1200px",
-      },
-      mq1050: {
-        raw: "screen and (max-width: 1050px)",
-      },
-      mq750: {
-        raw: "screen and (max-width: 750px)",
-      },
-      mq450: {
-        raw: "screen and (max-width: 450px)",
-      },
+      mo: { max: "479px" },
+      // => @media (max-width: 479px) { ... }
+
+      ta: { max: "767px" },
+      // => @media (max-width: 767px) { ... }
+
+      de: { min: "768px" },
+      // => @media (min-width: 768px) { ... }
     },
   },
   corePlugins: {
