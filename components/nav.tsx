@@ -8,7 +8,7 @@ export type NavType = {
 const Nav: NextPage<NavType> = ({ className = "" }) => {
   return (
     <header
-      className={`w-full bg-black flex flex-row items-center justify-center py-2.5 px-[847px] gap-[30px] top-[0] z-[99] sticky text-left text-sm text-white font-montserrat lg:pl-[423px] lg:pr-[423px] lg:box-border mq450:pl-5 mq450:pr-5 mq450:box-border mq750:gap-[15px] mq750:pl-[211px] mq750:pr-[211px] mq750:box-border ${className}`}
+      className={`w-full bg-black flex flex-row items-center justify-center py-2.5 px-[847px] gap-[30px] top-[0] z-[99] sticky text-left text-sm text-white font-montserrat lg:pl-[423px] lg:pr-[423px] lg:box-border ${className}`}
     >
       <Image
         className="h-10 w-10 relative overflow-hidden shrink-0"

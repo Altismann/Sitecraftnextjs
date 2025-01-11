@@ -32,15 +32,15 @@ module.exports = {
       inherit: "inherit",
     },
     screens: {
-      mo: { max: "479px" },
+      mobile: { max: "479px" },
       // => @media (max-width: 479px) { ... }
 
-      ta: { max: "767px" },
+      tablet: { max: "767px" },
       // => @media (max-width: 767px) { ... }
 
-      de: { min: "768px" },
+      desktop: { min: "768px" },
       // => @media (min-width: 768px) { ... }
-    },
+   }
   },
   corePlugins: {
     preflight: false,
