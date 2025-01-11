@@ -3,7 +3,7 @@ import type { NextPage } from "next";
 const Body: NextPage = () => {
   return (
     <div className="w-full bg-black relative flex flex-col items-center justify-center pt-0 px-0 pb-[30.5px] box-border leading-[normal] tracking-[normal] text-center text-[34px] text-white font-montserrat">
-      <div className="w-full bg-grey flex flex-col items-center justify-center pt-[300px] pb-[404px] pl-[559px] pr-[558px] box-border gap-0.5 max-w-full">
+      <div className="w-full bg-green-300 flex flex-col items-center justify-center pt-[300px] pb-[404px] pl-[559px] pr-[558px] box-border gap-0.5 max-w-full">
         <div className="w-full flex flex-row items-center justify-center py-0 pl-[99px] pr-[98px] box-border max-w-full ">
           <div className="w-full relative leading-[20px] flex items-center justify-center ">
             Portfolio
@@ -13,7 +13,7 @@ const Body: NextPage = () => {
           Anders
         </h1>
       </div>
-      <main className="w-full bg-green-300 flex flex-col items-center justify-center pt-[0px] box-border relative gap-[227px] max-w-full text-left text-27xl text-white font-montserrat lg:pt-[215px] lg:pb-[129px] lg:box-border ">
+      <main className="w-full  flex flex-col items-center justify-center pt-[0px] box-border relative gap-[227px] max-w-full text-left text-27xl text-white font-montserrat lg:pt-[215px] lg:pb-[129px] lg:box-border ">
       <section className="w-full leading-[60px] uppercase font-black font-montserrat text-white text-left flex items-center mq450:text-[18px] mq750:text-[36px] mq450:leading-[18px] mq750:leading-[36px]">
           Hej! Jag heter Anders, jag är en hobby produktdesigner och
           webbutvecklare plaserad i Stockholm. Alla sidor här är skapade från
