@@ -1,22 +1,22 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} */ 
 module.exports = {
-  content: [
+  "content": [
     "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
   ],
-  theme: {
-    extend: {
-      colors: {
-        black: "#000",
-        white: "#fff",
-        darkkhaki: "#b9be75",
+  "theme": {
+    "extend": {
+      "colors": {
+        "black": "#000",
+        "white": "#fff",
+        "darkkhaki": "#b9be75"
       },
-      spacing: {},
-      fontFamily: {
-        montserrat: "Montserrat",
-      },
+      "spacing": {},
+      "fontFamily": {
+        "montserrat": "Montserrat"
+      }
     },
-    fontSize: {
+    "fontSize": {
       "45xl": "64px",
       "19xl": "38px",
       "32xl": "51px",
@@ -27,22 +27,26 @@ module.exports = {
       "9xl": "28px",
       "18xl": "37px",
       "5xl": "24px",
-      lgi: "19px",
-      sm: "14px",
-      inherit: "inherit",
+      "lgi": "19px",
+      "sm": "14px",
+      "inherit": "inherit"
     },
-    screens: {
-      mobile: { max: "479px" },
-      // => @media (max-width: 479px) { ... }
-
-      tablet: { max: "767px" },
-      // => @media (max-width: 767px) { ... }
-
-      desktop: { min: "768px" },
-      // => @media (min-width: 768px) { ... }
-   }
+    "screens": {
+      "lg": {
+        "max": "1200px"
+      },
+      "mq1050": {
+        "raw": "screen and (max-width: 1050px)"
+      },
+      "mq750": {
+        "raw": "screen and (max-width: 750px)"
+      },
+      "mq450": {
+        "raw": "screen and (max-width: 450px)"
+      }
+    }
   },
-  corePlugins: {
-    preflight: false,
-  },
-};
+  "corePlugins": {
+    "preflight": false
+  }
+}

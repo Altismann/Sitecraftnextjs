@@ -3,7 +3,7 @@ import Nav from "../components/nav";
 
 const Body: NextPage = () => {
   return (
-    <div className="w-full relative flex flex-col items-center justify-center pt-0 px-0 pb-[30.5px] box-border leading-[normal] tracking-[normal] text-center text-[34px] text-white font-montserrat">
+    <div className="w-full bg-black relative flex flex-col items-center justify-center pt-0 px-0 pb-[30.5px] box-border leading-[normal] tracking-[normal] text-center text-[34px] text-white font-montserrat">
       <Nav />
       <div className="w-full bg-darkkhaki overflow-hidden flex flex-col items-center justify-center pt-[200px] pb-[404px] pl-[559px] pr-[558px] box-border gap-0.5 max-w-full">
         <div className="w-full flex flex-row items-center justify-center py-0 pl-[99px] pr-[98px] box-border max-w-full ">
@@ -11,8 +11,8 @@ const Body: NextPage = () => {
             Portfolio
           </div>
         </div>
-        <h1 className="w-full text-[130px] leading-[130px] font-black font-[inherit] ">
-          Sitecraft
+        <h1 className="w-full relative mq450:text-[18px] mq750:text-[36px] text-[130px] font-black font-[inherit] flex items-center justify-center">
+          Anders
         </h1>
       </div>
       <main className="w-full bg-black flex flex-col items-center justify-center pt-[0px] box-border relative gap-[227px] max-w-full text-left text-27xl text-white font-montserrat lg:pt-[215px] lg:pb-[129px] lg:box-border ">
@@ -69,10 +69,10 @@ const Body: NextPage = () => {
             </span>
           </div>
         </div>
-        <div className="w-[518px] flex flex-row items-start justify-end py-0 px-[70px] box-border max-w-full text-right ">
-          <div className="flex-1 flex flex-col items-start justify-start gap-3.5 max-w-full">
+        <div className="w-full flex flex-col items-center justify-center py-0 px-[70px] box-border max-w-full text-center pb-[200px]">
+          <div className="flex-1 flex flex-col items-center justify-center gap-3.5 max-w-full">
 
-            <div className="self-stretch relative text-17xl leading-[36px] font-black ">
+            <div className="w-full text-17xl leading-[36px] font-black ">
               <h2 className="m-0">Kontakt</h2>
               <p className="m-0">Anders Altmann</p>
               <p className="m-0">48 år bor på</p>
