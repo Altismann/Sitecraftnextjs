@@ -10,7 +10,7 @@ const Body: NextPage = () => {
             Portfolio
           </div>
         </div>
-        <h1 className="w-full relative mq450:text-[18px] mq750:text-[36px] text-[130px] font-black font-[inherit] flex items-center justify-centertext-17xl leading-[1px]">
+        <h1 className="w-full relative mq450:text-[18px] mq750:text-[36px] text-[130px] font-black font-[inherit] flex items-center justify-center leading-[1px]">
           Anders
         </h1>
       </div>
