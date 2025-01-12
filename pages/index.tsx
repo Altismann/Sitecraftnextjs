@@ -49,9 +49,9 @@ const Body: NextPage = () => {
               </h2>
               
               
-              <div className="flex flex-col items-start justify-center mt-1 max-w-full [row-gap:20px] text-45xl font-black text-pink-400">
+              <div className="flex flex-col items-start justify-center mt-1 max-w-full [row-gap:20px] ">
               <a
-          className="relative [text-decoration:underline] tracking-[10px] leading-[40px] font-bold text-[inherit]"
+          className="relative [text-decoration:underline] text-45xl font-black leading-[40px] text-pink-400 font-bold text-[inherit]"
           href="https://www.dyoid.se"
           target="_blank"
         >
