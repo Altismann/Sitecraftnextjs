@@ -78,7 +78,7 @@ const Body: NextPage = () => {
               <p className="m-0">Shopify</p>
               <p className="m-0 tracking-[25px]">Webflow</p>
               <p className="m-0">Locofy</p>
-              <p className="m-0">Wordpress</p>
+              <p className="m-0 tracking-[25px]">Wordpress</p>
             </span>
           </div>
         </div>
