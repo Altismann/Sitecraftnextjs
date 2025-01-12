@@ -29,34 +29,39 @@ const Body: NextPage = () => {
           grunden utan färdiga teman. Jag använde Figma, Locofy och Nextjs för 
           att göra den här sidan.
         </section>
-        <div className="flex flex-col items-end justify-center gap-[187px] max-w-full text-45xl ">
-          <div className="flex flex-col items-center justify-center">
-            <h2 className="m-0 h-[267px] relative text-inherit leading-[64px] font-black font-[inherit] flex items-center shrink-0 ">
-              <span>
-                <p className="m-0">Web Developer</p>
-                <p className="m-0">(Mimo)</p>
-                <p className="m-0">Certifiering i JS</p>
-                <p className="m-0">HTML CSS</p>
-              </span>
+        <div className="w-full flex flex-col items-center justify-center ">
+          <div className="flex flex-row items-center justify-center">
+            <h2 className="relative leading-[64px] font-black font-[inherit] flex items-center mq450:text-[24px] mq750:text-[36px] mq450:leading-[24px] mq750:leading-[36px]">
+              <section className="w-full leading-[60px] uppercase font-black mb-[150px] font-montserrat text-white items-center mq450:text-[18px] mq750:text-[36px] mq450:leading-[18px] mq750:leading-[36px]">
+              Web Developer
+                (Mimo)
+                Certifiering i JS
+               HTML CSS
+               (2022)
+        </section>
             </h2>
-            <div className="self-stretch relative text-17xl leading-[36px] lowercase font-black ">
-              (Jan2022)
-            </div>
+
           </div>
-          <div className="w-[441px] flex flex-row items-start justify-end py-0 px-[26px] box-border max-w-full text-center">
-            <div className="flex-1 flex flex-col items-start justify-start relative gap-0 max-w-full">
-              <h2 className="m-0 w-[305px] relative text-inherit leading-[64px] lowercase font-black font-[inherit] flex items-center justify-center ">
-                Sitecraft
+          <div className="flex flex-col items-center justify-center py-0 px-[26px] box-border max-w-full text-center">
+            <div className="flex-1 flex flex-col items-end justify-center relative mq450:gap-20 max-w-full">
+              <h2 className="flex flex-col relative text-45xl breal-all leading-[64px] lowercase font-black font-[inherit] flex items-center justify-center ">
+                Den här sidan
               </h2>
-              <div className="w-[327px] flex flex-row items-start justify-center max-w-full [row-gap:20px] text-27xl ">
-                <div className="flex-1 relative leading-[46px] font-black inline-block min-w-[136px] m">
-                  bydyoid
-                </div>
-                <div className="relative text-5xl leading-[46px] lowercase font-black inline-block min-w-[120px] ">
+              
+              
+              <div className="flex flex-col items-start justify-center mt-1 max-w-full [row-gap:20px] text-45xl text-pink-400">
+              <a
+          className="relative [text-decoration:underline] tracking-[10px] leading-[40px] font-bold text-[inherit]"
+          href="https://www.dyoid.se"
+          target="_blank"
+        >
+          dyoid
+        </a>
+                <div className="relative text-5xl leading-[20px] lowercase font-black inline-block min-w-[120px] ">
                   Webflow
                 </div>
               </div>
-              <div className="w-[85px] absolute !m-[0] top-[18px] right-[-2px] text-5xl leading-[36px] lowercase font-black flex items-center justify-center min-w-[85px] ">
+              <div className="flex flex-col absolute break-all text-5xl leading-[64px] lowercase font-black flex items-center justify-center min-w-[85px] ">
                 Nextjs
               </div>
             </div>
@@ -73,6 +78,7 @@ const Body: NextPage = () => {
               <p className="m-0">Shopify</p>
               <p className="m-0 tracking-[25px]">Webflow</p>
               <p className="m-0">Locofy</p>
+              <p className="m-0">Wordpress</p>
             </span>
           </div>
         </div>
@@ -80,7 +86,7 @@ const Body: NextPage = () => {
           <div className="flex-1 flex flex-col items-center justify-center gap-3.5 max-w-full">
 
             <div className="w-full text-17xl leading-[36px] font-black ">
-              <h2 className="m-0">Kontakt</h2>
+              <h2 className="m-0 mb-1">Kontakt</h2>
               <p className="m-0">Anders Altmann</p>
               <p className="m-0">48 år bor på</p>
               <p className="m-0">adressen</p>
@@ -89,7 +95,13 @@ const Body: NextPage = () => {
               <p className="m-0">Skå</p>
               <p className="m-0">Telefonnummer</p>
               <p className="m-0">070-231 21 73</p>
-              <p className="m-0">aaltismann@gmail.com</p>
+              <a
+          className="relative [text-decoration:underline] leading-[30px] font-bold text-[inherit] mq450:text-[5xl] break-all "
+          href="mailto:aaltismann@gmail.com"
+          target="_blank"
+        >
+          aaltismann@gmail.com
+        </a>
                       
             </div>
           </div>
