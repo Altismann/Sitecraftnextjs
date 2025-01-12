@@ -24,10 +24,10 @@ const Body: NextPage = () => {
       
       <main className="w-full flex flex-col items-center justify-center box-border relative gap-[227px] max-w-full text-left text-27xl text-white font-montserrat ">
       <section className="w-full leading-[60px] uppercase font-black font-montserrat text-white text- flex items-center mq450:text-[18px] mq750:text-[36px] mq450:leading-[18px] mq750:leading-[36px]">
-          Hej! Jag heter Anders, jag är en hobby produktdesigner ochleft
-          webbutvecklare plaserad i Stockholm. Alla sidor här är skapade från
-          grunden utan färdiga teman. Jag använde Figma, Locofy och Nextjs för 
-          att göra den här sidan.
+        Hej! Jag heter Anders, jag är en hobby produktdesigner och 
+        webbutvecklare plaserad i Stockholm. Alla sidor här är skapade från
+        grunden utan färdiga teman. Jag använde Figma, Locofy och Nextjs för 
+        att göra den här sidan.
         </section>
         <div className="w-full flex flex-col items-center justify-center ">
           <div className="flex flex-row items-center justify-center">
