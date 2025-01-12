@@ -44,7 +44,7 @@ const Body: NextPage = () => {
           </div>
           <div className="flex flex-col items-center justify-center py-0 px-[26px] box-border max-w-full text-center">
             <div className="flex-1 flex flex-col items-end justify-center relative mq450:gap-20 max-w-full">
-              <h2 className="flex flex-col relative text-45xl breal-all leading-[64px] lowercase font-black font-[inherit] flex items-center justify-center ">
+              <h2 className="flex flex-col relative text-45xl breal-all leading-[64px] lowercase font-black font-[inherit] items-center justify-center ">
                 Den här sidan
               </h2>
               
@@ -61,7 +61,7 @@ const Body: NextPage = () => {
                   Webflow
                 </div>
               </div>
-              <div className="flex flex-col absolute break-all text-5xl leading-[64px] lowercase font-black flex items-center justify-center min-w-[85px] ">
+              <div className="flex-col absolute break-all text-5xl leading-[64px] lowercase font-black flex items-center justify-center min-w-[85px] ">
                 Nextjs
               </div>
             </div>
