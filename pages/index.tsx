@@ -2,18 +2,26 @@ import type { NextPage } from "next";
 
 const Body: NextPage = () => {
   return (
-    <div className="w-full bg-black relative flex flex-col items-center justify-center pt-0 px-0 pb-[30.5px] box-border leading-[normal] tracking-[normal] text-center text-[34px] text-white font-montserrat">
-      <div className="w-full bg-gradient-to-r from-sky-500 to-indigo-500 flex flex-col items-center justify-center pt-[300px] pb-[404px] pl-[559px] pr-[558px] box-border gap-0.5 max-w-full">
-        <div className="w-full flex flex-row items-center justify-center py-0 pl-[99px] pr-[98px] box-border max-w-full ">
-          <div className="w-full relative leading-[20px] flex items-center justify-center ">
-            Portfolio
-          </div>
-        </div>
-        <h1 className="w-full relative mq450:text-[18px] mq750:text-[36px] text-[130px] font-black font-[inherit] flex items-center justify-center leading-[1px]">
-          Anders
-        </h1>
-      </div>
-      <main className="w-full  flex flex-col items-center justify-center pt-[0px] box-border relative gap-[227px] max-w-full text-left text-27xl text-white font-montserrat lg:pt-[215px] lg:pb-[129px] lg:box-border ">
+  <div className=" bg-black">
+
+  <div className="absolute z-30 text-45xl text-white items-center justify-center mt-[300px]">
+    Welcome to my site!
+  </div>
+  <video
+    autoPlay
+    loop
+    muted
+    className="relative z-10 w-auto min-w-full min-h-30% max-w-none"
+  >
+    <source
+      src="https://cdn.pixabay.com/video/2021/07/08/80711-573496150_large.mp4"
+      type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
+
+      
+      <main className="w-full  flex flex-col items-center justify-center pt-[0px] box-border relative gap-[227px] max-w-full text-left text-27xl text-white font-montserrat ">
       <section className="w-full leading-[60px] uppercase font-black font-montserrat text-white text-left flex items-center mq450:text-[18px] mq750:text-[36px] mq450:leading-[18px] mq750:leading-[36px]">
           Hej! Jag heter Anders, jag är en hobby produktdesigner och
           webbutvecklare plaserad i Stockholm. Alla sidor här är skapade från
