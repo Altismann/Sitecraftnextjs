@@ -1,17 +1,18 @@
 import type { NextPage } from "next";
+import Nav from "../components/nav";
 
 const Body: NextPage = () => {
   return (
-  <div className=" bg-black">
-
-  <div className="absolute z-30 text-45xl text-white items-center justify-center mt-[300px]">
-    Welcome to my site!
+  <div className=" bg-black" >
+  <Nav />
+  <div className="absolute z-30 text-45xl uppercase font-montserrat text-white text-opacity-80 font-black items-center justify-center mq450:mt-[75px] mq750:mt-[150px] mt-[300px] mq450:text-[24px] mq750:text-[36px] mq450:leading-[24px] mq750:leading-[36px]" >
+    Portfolio för arbetsgivare
   </div>
   <video
     autoPlay
     loop
     muted
-    className="relative z-10 w-auto min-w-full min-h-30% max-w-none"
+    className="relative z-10 min-h-30% max-w-full overflow-hidden"
   >
     <source
       src="https://cdn.pixabay.com/video/2021/07/08/80711-573496150_large.mp4"
@@ -21,9 +22,9 @@ const Body: NextPage = () => {
   </video>
 
       
-      <main className="w-full  flex flex-col items-center justify-center pt-[0px] box-border relative gap-[227px] max-w-full text-left text-27xl text-white font-montserrat ">
-      <section className="w-full leading-[60px] uppercase font-black font-montserrat text-white text-left flex items-center mq450:text-[18px] mq750:text-[36px] mq450:leading-[18px] mq750:leading-[36px]">
-          Hej! Jag heter Anders, jag är en hobby produktdesigner och
+      <main className="w-full flex flex-col items-center justify-center box-border relative gap-[227px] max-w-full text-left text-27xl text-white font-montserrat ">
+      <section className="w-full leading-[60px] uppercase font-black font-montserrat text-white text- flex items-center mq450:text-[18px] mq750:text-[36px] mq450:leading-[18px] mq750:leading-[36px]">
+          Hej! Jag heter Anders, jag är en hobby produktdesigner ochleft
           webbutvecklare plaserad i Stockholm. Alla sidor här är skapade från
           grunden utan färdiga teman. Jag använde Figma, Locofy och Nextjs för 
           att göra den här sidan.
