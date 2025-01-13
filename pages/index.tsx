@@ -25,7 +25,7 @@ const Body: NextPage = () => {
       <main className="w-full flex flex-col items-center justify-center box-border relative max-w-full ">
       <section className="w-full uppercase font-black font-montserrat text-white items-center text-left text-[60px] text-white font-montserrat mq450:text-[24px] mq750:text-[36px] mq450:leading-[24px] mq750:leading-[36px]">
         Hej! Jag heter Anders, jag är en hobby produktdesigner och 
-        webbutvecklare plaserad i Stockholm. Alla sidor här är skapade från
+        webbutvecklare placerad i Stockholm. Alla sidor här är skapade från
         grunden utan färdiga teman. Jag använde Figma, Locofy och Nextjs för 
         att göra den här sidan.
         </section>
