@@ -52,10 +52,10 @@ const Body: NextPage = () => {
               <div className="flex flex-col max-w-full items-center justify-center ">
               <a
           className="relative [text-decoration:underline] mt-[-65px] text-left text-[60px] leading-[74px] font-montserrat font-black break-all text-pink-400 "
-          href="https://www.dyoid.se"
+          href="https://www.dyoidart.work"
           target="_blank"
         >
-          bydyoid
+          dyoidart
         </a>
               </div>
             </div>
